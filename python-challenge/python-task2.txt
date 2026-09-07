@@ -21,3 +21,11 @@ This task will test your understanding of:
 - Random module
 - Loops
 - Exception handling
+
+Create a word-guessing game where the player tries to guess the letters of a hidden word.
+This will test your:
+- Loops
+- Conditional logic
+- String manipulation
+- Exception handling
+- Logical thinking
