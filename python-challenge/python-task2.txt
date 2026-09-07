@@ -1,0 +1,14 @@
+1. while loop
+2. for loop
+3. if else
+4. if elif else
+5. user defined functions without for loop, if loop
+6. user defined functions with for loop
+7. user defined functions with for loop and if condition
+8. break
+9. continue
+10. for loop with in operator
+11. for loop with if statement
+12. for loop with not in operator
+13. if with in operator
+14. if with not in operator

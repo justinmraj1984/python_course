@@ -1,0 +1,55 @@
+General Built-in Functions
+len(): Returns the total number of characters in the string, including spaces and symbols.
+str(): Converts other data types (like integers or floats) into a string.
+
+
+Case Conversion & Formatting
+capitalize(): Converts the first character to uppercase and the rest to lowercase.
+casefold(): Converts the string to lowercase using a stronger algorithm for aggressive case-insensitive comparisons.
+center(width, fillchar): Centers the string within a specified width, padded with a fill character.
+expandtabs(tabsize): Replaces tab characters (\t) with a specified number of spaces.
+format(*args, **kwargs): Formats specified values and inserts them into placeholders within the string.
+format_map(mapping): Formats the string using a dictionary/mapping passed as an argument.
+ljust(width, fillchar): Left-aligns the string within a specified width using a fill character.
+lower(): Converts all cased characters to lowercase.
+rjust(width, fillchar): Right-aligns the string within a specified width using a fill character.
+swapcase(): Swaps uppercase characters to lowercase and vice versa.
+title(): Capitalizes the first character of every word.
+upper(): Converts all cased characters to uppercase.
+zfill(width): Pads the string with leading zeros until it reaches the specified width.
+count(sub, start, end): Returns the number of non-overlapping occurrences of a substring.
+endswith(suffix, start, end): Returns True if the string ends with the specified suffix.
+find(sub, start, end): Returns the lowest index where the substring is found, or -1 if it doesn't exist.
+index(sub, start, end): Works exactly like find(), but raises a ValueError if the substring is not found.
+rfind(sub, start, end): Returns the highest (rightmost) index where the substring is found, or -1 if it doesn't exist.
+rindex(sub, start, end): Works exactly like rfind(), but raises a ValueError if the substring is not found.
+startswith(prefix, start, end): Returns True if the string starts with the specified prefix.
+join(iterable): Concatenates elements of an iterable (like a list) using the string as a separator.
+lstrip(chars): Removes leading characters (whitespace by default) from the left side of the string.
+maketrans(x, y, z): Returns a translation table usable by the translate() method.
+partition(sep): Splits the string at the first occurrence of a separator and returns a 3-element tuple.
+removeprefix(prefix): Removes the specified prefix from the start of the string if it exists.
+removesuffix(suffix): Removes the specified suffix from the end of the string if it exists.
+replace(old, new, count): Substitutes occurrences of a substring with a new substring.
+rpartition(sep): Splits the string at the last occurrence of a separator and returns a 3-element tuple.
+rsplit(sep, maxsplit): Splits the string into a list starting from the right side.
+rstrip(chars): Removes trailing characters (whitespace by default) from the right side of the string.
+split(sep, maxsplit): Splits the string into a list based on a specified separator.
+splitlines(keepends): Splits the string at line breaks and returns a list of lines.
+strip(chars): Removes both leading and trailing characters (whitespace by default).
+translate(table): Returns a copy of the string mapped through the translation table.
+isalnum(): Returns True if all characters in the string are alphanumeric (letters or numbers).
+isalpha(): Returns True if all characters in the string are alphabetic (letters).
+isascii(): Returns True if all characters are within the ASCII character set.
+isdecimal(): Returns True if all characters are Unicode decimal digits (0–9).
+isdigit(): Returns True if all characters are digits (including superscripts/subscripts).
+isidentifier(): Returns True if the string is a valid Python variable/identifier name.
+islower(): Returns True if all cased characters are lowercase.
+isnumeric(): Returns True if all characters are numeric (including fractions, roman numerals, etc.).
+isprintable(): Returns True if all characters are printable (excludes escape characters like \n).
+isspace(): Returns True if all characters are whitespace (spaces, tabs, newlines).
+istitle(): Returns True if the string is properly titlecased.
+isupper(): Returns True if all cased characters are uppercase.
+encode(encoding, errors): Encodes the string into a bytes object using the specified encoding (defaults to UTF-8)
+
+
