@@ -1,0 +1,29 @@
+Python Data Structures:
+
+Lists
+- 1 dimensional
+- heterogenous data structure
+- allow duplicates
+- indexing and slicing allowed
+- functions: append()
+
+Sets
+- 1 dimensional
+- not ordered
+- heterogenous data structure
+- does not allow duplicates
+- indexing and slicing not allowed
+- functions: add(), discard(), pop()
+
+
+Tuples
+- 1 dimensional
+- heterogenous data structure
+- allow duplicates
+- functions: count(), index()
+
+
+Dictionaries - Key & Value pair
+
+
+
